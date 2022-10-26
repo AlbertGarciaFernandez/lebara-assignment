@@ -1,0 +1,59 @@
+.simOnlyImageUpContainer {
+  display: none;
+  object-fit: contain;
+  min-width: 375px;
+  min-height: 279px;
+}
+
+.simOnlyImageUpContainer img {
+  min-width: 375px;
+  min-height: 279px;
+  width: 100%;
+}
+.simOnlyImageRightContainer {
+  max-width: 684px;
+  max-height: 640px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.simOnlyImageRightContainer img {
+  max-width: 684px;
+  max-height: 640px;
+}
+.buttonGrayWrapper {
+  display: none;
+}
+
+.color {
+  background-color: #3c2da0;
+}
+
+/* .img {
+  width: 100%;
+  height: 100%;
+} */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 4em;
+  border-right: 3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .simOnlyImageRightContainer {
+    display: none;
+  }
+
+  .simOnlyImageUpContainer {
+    margin-bottom: -1em;
+    display: block;
+  }
+
+  .wrapper {
+    display: block;
+    padding: 0;
+  }
+} ;
