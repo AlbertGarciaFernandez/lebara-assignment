@@ -1,5 +1,7 @@
 # This project was created as assignment for lebara following their requeriments
 
+You can visit the website here
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
