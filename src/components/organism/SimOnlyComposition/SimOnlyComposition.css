@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px) {
+  .simonlyTextSection {
+    padding: 0px, 16px, 0px, 16px;
+    background: linear-gradient(180deg, #3c2da0 50.61%, #f6f8ff 50.63%);
+    display: flex;
+    justify-content: center;
+  }
+}

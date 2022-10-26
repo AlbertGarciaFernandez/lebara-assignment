@@ -1,0 +1,29 @@
+/* .textSection h1,
+h3 {
+  color: #3c2da0;
+} */
+
+.prepaidTextWrapper h1 {
+  color: #3c2da0;
+}
+
+.prepaidTextWrapper h3 {
+  color: #3c2da0;
+}
+
+.prepaidTextWrapper li {
+  color: #1a1f45bf;
+}
+
+.prepaidTextWrapper button {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .prepaidTextSection {
+    padding: 0px, 16px, 0px, 16px;
+    background-color: #0489ec;
+    display: flex;
+    justify-content: center;
+  }
+}
