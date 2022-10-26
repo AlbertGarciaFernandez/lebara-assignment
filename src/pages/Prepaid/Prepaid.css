@@ -1,0 +1,17 @@
+.color2 {
+  background-color: #f9f9f9;
+}
+
+.simOnlyImageRightContainer {
+  max-width: 684px;
+  max-height: 640px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.simOnlyImageRightContainer img {
+  max-width: 684px;
+  max-height: 640px;
+}
+@media screen and (max-width: 1024px) {
+}
