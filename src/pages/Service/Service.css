@@ -1,0 +1,18 @@
+/* .serviceSection {
+  background: linear-gradient(
+    180deg,
+    #0094f6 49.64%,
+    rgba(246, 248, 255, 0) 49.65%
+  );
+} */
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 104px 0px;
+  background-color: #0094f6;
+  max-width: 1920px;
+  max-height: 304px;
+}
