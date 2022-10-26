@@ -1,0 +1,18 @@
+.trustpilotContainer {
+  background-color: #199ef7;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding-top: 0.5em;
+  justify-content: center;
+  padding-bottom: 0.5em;
+  gap: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .onlyDesktop {
+    display: none;
+  }
+}
