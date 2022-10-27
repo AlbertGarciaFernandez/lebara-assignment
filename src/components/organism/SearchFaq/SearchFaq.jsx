@@ -4,8 +4,6 @@ import FaqResult from "../../molecules/FaqResult/FaqResult";
 
 import "./SearchFaq.css";
 
-import { Input } from "@chakra-ui/react";
-
 function SearchFaq() {
   const [searchTerm, setSearchTerm] = useState("");
   return (

@@ -1,4 +1,9 @@
 .searchFaqSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 1000px;
   background: linear-gradient(
     180deg,
     #0094f6 49.64%,

@@ -1,0 +1,37 @@
+.catWrapper img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.catWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonCat {
+  background: #ff3182;
+  box-shadow: 0px 4px 22px rgba(255, 49, 130, 0.25);
+  border: 2px solid #ff3182;
+  border-radius: 8px;
+  color: white;
+  padding: 1em;
+}
+
+.buttonWrapper {
+  width: 50%;
+
+  padding-top: 25%;
+}
+
+.catImgWrapper {
+  width: 50%;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .catWrapper {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
